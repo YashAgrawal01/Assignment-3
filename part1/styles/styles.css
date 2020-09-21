@@ -1,0 +1,65 @@
+/*
+CSS  part 1.
+Submiited by: Yash Agrawal
+*/
+body {
+   font-family: "Arial", Helvetica, sans-serif;
+   font-size: 1em;
+   line-height: 2em;
+   background-color: #ededed;
+}
+
+
+h3 {
+   border-bottom: 1px solid #929ca4;
+   color: navy;
+}
+
+
+p:first-of-type::first-letter {
+   font-size: 30px;
+}
+
+
+.solution {
+   color: #cc1c0d;
+   font-weight: bold;
+}
+
+
+#testimonial1, #testimonial2 {
+   font-style: italic;
+   margin-left: 50px;
+}
+
+
+a[href^="http://"]:hover {
+   color: red;
+   text-decoration: none;
+}
+a[href^="http://"]:visited {
+   color: purple;
+   text-decoration: line-through;
+}
+a[href^="http://"]:active {
+   color: blue;
+   text-decoration: overline;
+}
+a[href^="http://"]:link {
+   color: brown;
+   text-decoration: underline;
+}
+
+
+ul {
+   list-style-type: none;
+}
+
+
+li:first-child {
+   color: blue;
+}
+
+li:last-child {
+   color: red;
+}
